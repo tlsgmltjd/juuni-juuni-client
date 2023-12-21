@@ -2,7 +2,7 @@ const startBtn = document.querySelector("#start");
 const listBtn = document.querySelector("#list");
 
 startBtn.addEventListener("click", () => {
-  alert("start");
+  location.replace("detecting.html");
 });
 
 listBtn.addEventListener("click", () => {

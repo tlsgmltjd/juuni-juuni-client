@@ -141,3 +141,31 @@ html {
   right: 20px;
   cursor: pointer;
 }
+
+.DetectingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#DetectingCancelBtn {
+  border: none;
+  border-radius: 37px;
+  background: #0a86bd;
+  color: white;
+  padding: 20px 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 30px;
+}
+
+#DetectingCancelBtn:hover {
+  transition: all 0.3s ease;
+  background: #09668e;
+}
